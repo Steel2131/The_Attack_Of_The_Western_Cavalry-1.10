@@ -1,0 +1,13 @@
+Notes for myself :)
+
+ - Enormous changes on the bad storyline
+  - Introduced new scenario, map18b
+  - Rebalanced map2, map4 (in hard)
+  - Rebalanced units
+  - Redesigned recruit list
+
+
+Version numbers (change when update!):
+.pbl file,
+main.cfg
+indicate at history.txt

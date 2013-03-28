@@ -1,0 +1,40 @@
+# {MODIFY_UNIT id=Aethyr modifications.trait.id wounded}        #################
+#define HUMAN_WRECK_EFFECT ID MESSAGE DEFEAT_YES_OR_NO
+    [event]
+        name=last breath
+        [filter]
+            id={ID}
+        [/filter]
+
+        [store_unit]
+            [filter]
+                id={ID}
+            [/filter]
+
+            kill=no
+            variable=wreck
+        [/store_unit]
+        [message]
+            speaker=narrator
+            caption= _ "Captain of the '$wreck.name|'"
+            image=portraits/captain.png
+            message= _ "{MESSAGE}"
+        [/message]
+        [item]
+            x,y=$wreck.x,$wreck.y
+            image=scenery/shipwreck-1.png
+        [/item]
+        {VARIABLE defeat_yes_or_no {MESSAGE DEFEAT_YES_OR_NO}}
+        [if]
+            [variable]
+                name=defeat_yes_or_no
+                equals=yes
+            [/variable]
+            [then]
+                {DEFEAT}
+            [/then]
+        [/if]
+
+        {CLEAR_VARIABLE wreck,defeat_yes_or_no}  
+    [/event]
+#enddef

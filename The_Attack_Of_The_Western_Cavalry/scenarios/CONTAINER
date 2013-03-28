@@ -1,0 +1,174 @@
+Files are temorarily put here.
+
+#THE PRECEEDING SLEEPING EFFECTS#
+
+        #Edit existing menu items
+        [set_menu_item]
+            id=menu_item_1
+            description= _ "Send to sleep"
+            [show_if]
+                [have_unit]
+                    side=1
+                    x=$x1
+                    y=$y1
+                    [not]
+                    [filter_wml]
+                        [variables]
+                            sleeping=sleeping
+                        [/variables]
+                    [/filter_wml]
+                    [/not]    
+                [/have_unit]
+            [/show_if]
+            [command]
+                [animate_unit]
+                    flag=death
+        
+                    [filter]
+                       x,y=$x1,$y1
+                    [/filter]
+                    hits=kill
+
+                    text= _ "Finally!"
+        
+                    with_bars=no
+                [/animate_unit]
+
+                {STORE_UNIT x,y=$x1,$y1 image_select yes}
+                #{VARIABLE image_select $to_sleep_$x1|$y1}
+
+                [switch]
+                    variable=image_select.facing
+                    [case]
+                        value=n,ne,se,s
+                        [switch]
+                            variable=image_select.type
+                            [case]
+                                value=Cavalryman,Duelist,Fencer,Horseman,Lieutenant,Pikeman,Spearman,Thief
+
+                                [set_variable]
+                                    name=image_to_replace_with
+                                    value=$image_select.type|-dead.png
+                                [/set_variable]
+                            [/case]
+                            [else]
+                                {RANDOM Cavalryman,Duelist,Fencer,Horseman,Lieutenant,Pikeman,Spearman,Thief}
+                                [set_variable]
+                                    name=image_to_replace_with
+                                    value=$random|-dead.png
+                                [/set_variable]
+                            [/else]
+                        [/switch]
+                    [/case]
+                    [case]
+                        value=sw,nw
+                        [switch]
+                            variable=image_select.type
+                            [case]
+                                value=Cavalryman,Duelist,Fencer,Horseman,Lieutenant,Pikeman,Spearman,Thief
+                                [set_variable]
+                                    name=image_to_replace_with
+                                    value=$image_select.type|-dead-opp.png
+                                [/set_variable]
+                            [/case]
+                            [else]
+                                {RANDOM Cavalryman,Duelist,Fencer,Horseman,Lieutenant,Pikeman,Spearman,Thief}
+                                [set_variable]
+                                    name=image_to_replace_with
+                                    value=$random|-dead-opp.png
+                                [/set_variable]
+                            [/else]
+                        [/switch]
+                    [/case]
+                [/switch]
+
+
+                {VARIABLE image_select.variables.sleeping sleeping}
+                [item]
+                    x,y=$x1,$y1
+                    image=deads/humans/$image_to_replace_with
+                [/item]
+                [unit]
+                    id=$image_select.id|_sleeps
+                    type=Sleeping
+                    x,y=$x1,$y1
+                    side=1
+                    [variables]
+                        sleeping=sleeping
+                    [/variables]
+                [/unit]
+                [modify_unit]
+                     [filter]
+                          id=$image_select.id|_sleeps
+                     [/filter]
+
+                     max_hitpoints=$image_select.max_hitpoints
+                     hitpoints=$image_select.hitpoints
+                     name=$image_select.name
+                     race=$image_select.race
+                [/modify_unit]
+               # {VARIABLE image_select.variables.now now}
+               # [unstore_unit]
+               #     variable=image_select
+               #     find_vacancy=yes
+               # [/unstore_unit]
+               # {STORE_UNIT ([filter_wml]
+               #                 [variables]
+               #                     now=now
+               #                 [/variables]
+               #              [/filter_wml]    ) to_sleep_$x1|$y1 yes}
+               # {VARIABLE to_sleep_$x1|$y1|.variables.now done}
+               # [unstore_unit]
+               #     variable=to_sleep_$x1|$y1
+               # [/unstore_unit]
+
+                #{CLEAR_VARIABLE image_select}
+            [/command]
+        [/set_menu_item]
+
+
+
+
+        # Wake them.
+        [set_menu_item]
+            id=menu_item_2
+            description= _ "Wake"
+            [show_if]
+                [have_unit]
+                    side=1
+                    x=$x1
+                    y=$y1
+                    [filter_wml]
+                        [variables]
+                            sleeping=sleeping
+                        [/variables]
+                    [/filter_wml]
+                [/have_unit]
+            [/show_if]
+            [command]
+                [kill]
+                    x,y=$x1,$y1
+                [/kill]
+                [unstore_unit]
+                    variable=image_select
+                [/unstore_unit]
+            [/command]
+        [/set_menu_item]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

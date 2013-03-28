@@ -1,0 +1,105 @@
+History file created on 30.07.2011|
+__________________________________|
+
+
+Returned: 2013.01.01
+Plans are in the Notes
+
+_______________________________________
+
+Campaign comleted 15.06.2012
+Uploaded 1.0.1: the same date.
+________________________________________
+
+0.1.5 uploaded 22.03.2012
+Changed:
+- Vast changes on MAP11.
+  - Solved the 'Mal-Talar problem'.
+  - Solved the error messages flooding the terminal.
+  - You have a new, extra aim.
+- Now, every unit has a standard corpse image!
+- Horsemen now have their proper corpse image.
+- Death Squire has the proper primary attack animation.
+- Solved a global game-crashing error (thanks for Max for the help).
+- Warning message pops up if you choose an unfinished branch.
+- Added a dialogue on map10 so that your aim is more clear.
+
+_____________________________________
+0.1.4 uploaded 20.03.2012
+
+Found and solved major error at map11.
+- You can now advance Arya to Elite Elvish Halberdier!
+- Developped the battleship war - your enemy can now recruit ships.
+- Lots of smaller bugs fixed (thanks for Adamant14)
+- Western History finished in the description.
+- Rebuilt bridges (also did some embellishments).
+_____________________________________
+
+Major changes listed in the descriptions.
+0.1.3 uploaded 17.03.2012.
+
+Found and solved a major error at map6.
+______________________________________
+Corrected fences at 13b.
+Created and put down potions.
+______________________________________
+
+Reduced the size by deleting unneccessary images.
+Second publish: 4.Marsch.2012
+
+Deleted not GPL pictures
+The missing images are listed.
+
+______________________________________
+First publish: 3.Marsch.2012
+
+______________________________________
+
+28.Febr.2011
+Map 13c corrected, morals are now counted properly. Although, finding of more fair way of counting is recommended!
+Game don't crash before map 11 - up until that, there are no bugs anymore.
+- No more unknown units (fully solved)
+- LEADING_ANIM fully solved
+
+Units have to be gone over when finished campaign - there are unneccessary units, taking seveleral precious bytes!
+______________________________________
+
+27.Febr.2012
+Solved unit image problems, also some wrong profiles were changed.
+Noticed an old problem: some unit's descriptions are in hungarian, THESE NEED TO BE TRANSLATED AS SOON AS POSSIBLE!
+
+
+
+______________________________________
+
+Bug fixing started 26.Febr.2012
+- Solved [remove_item]
+- Solved AMLA TOUGH
+- Unknown units' appearance crashes the game, brought about at will by commenting wrong macroed units out. (partly solved)
+- LEADING_ANIM temporarily solved, game in theory runs without crashing, but is buggy --> game development can be continued.
+
+Early ugly solutions should be rewritten as soon as possible.
+
+New map editor services should be used after all bugs are fixed.
+
+________________________________________
+
+Campaign design crashed 25.Febr.2012 by installing 1.10branch
+Current campaign version: 0.1.1
+Introduced wesnoth version: 1.10.0
+Errors:
+- Macro error: AMLA TOUGH
+- Macro error: LEADING_ANIM expects 3 arguments, but has only 2
+Seems to be global macro error, own unit leading animations HAVE TO BE REWRITTEN AS SOON AS POSSIBLE
+- No movement (or even standing!) images at several units, global image errors
+- Wrong [units] toplevel tags (no idea)
+- Empty 'side= ' wml keys, no idea (only one map involved)
+- [removeitem] is not compatible with [remove_item] anymore, items do not disappear when expected to.
+
+________________________________________
+
+
+Artwork needed: Lance of the Devil attack image
+
+The 0.1.1 was published - 14.Sept.2011
+Written by WhiteWolf

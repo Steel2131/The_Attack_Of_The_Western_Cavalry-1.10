@@ -1,0 +1,76 @@
+These units have to be used by entering a '2' after their id, because they have been manipulated graphically or at they values.
+If you would like to use these extra and changed units, copy the whole /units and /images/units and /images/portraits/ and /images/attacks directory to your main campaign directory.
+Note: there may be units that I haven't used in the campaign. 
+
+Drakes:
+- Drake Burner2
+- Fire Drake2
+- Inferno Drake2
+- Armageddon Drake2
+- Drake Flare2
+- Drake Flameheart2
+
+- Drake Fighter2
+- Drake Warrior2
+- Drake Blademaster2
+
+- Drake Clasher2
+- Drake Arbiter2
+- Drake Warden2
+- Drake Thraser2
+- Drake Enforcer2
+
+- Drake Glider2
+- Sky Drake2
+- Hurricane Drake2
+
+Dwarves:
+- Dwarvish Fighter2
+
+Elves:
+- Elvish Fighter2
+
+Goblins:
+- Goblin Spearman2
+- Goblin Rouser2
+
+Humans:
+- Heavy Infantryman2
+# NOT CHECKED
+
+Merfolk:
+- Merman Fighter2
+- Merman Warrior2
+- Merman Hoplite2
+
+Monsters:
+- Cuttle Fish2
+- Fire Dragon2
+- Water Serpent2
+- Sea Serpent2
+
+Nagas:
+- Naga Fighter2
+- Naga Warrior2
+
+Orcs:
+- Orcish Assassin2
+- Orcish Slayer2
+# NOT CHECKED
+
+Trolls:
+- Troll Whelp2
+- Troll Hero2
+- Great Troll2
+#NOT CHECKED
+
+Undeads:
+- Skeleton2
+- Death Squire2
+- Death Knight2
+- Skeleton Rider2
+- Chocobone2
+- Skeletal Dragon2
+#NOT CHECKED
+#Skeleton Archereket mindig visszaállítani!
+

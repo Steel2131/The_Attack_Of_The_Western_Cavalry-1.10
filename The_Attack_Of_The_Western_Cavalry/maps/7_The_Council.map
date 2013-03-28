@@ -1,0 +1,14 @@
+border_size=1
+usage=map
+
+Ww          , Rr          , Rr          , Rr          , Rr          , Rr          , Rr          , Ss          , Ss          , Rr          , Rr          , Rr          , Ss          , Rr          , Rr          , Rr          
+Rr          , Ww          , Ww          , Rr          , Rr          , Rr          , Rr          , Ss          , Rr          , Rr          , Rr          , Rr          , Rr          , Ss          , Rr          , Rr          
+Rr          , Rr          , Ss          , Ww          , Ww          , Rr          , Ch          , Rr          , Rr          , Rr          , Ch          , Rr          , Ss          , Rr          , Rr          , Rr          
+Rr          , Ss          , Ss          , Rr          , Ch          , Chw         , Rr          , Rr          , Ss          , Ss          , Rr          , Ch          , Ch          , Rr          , Rr          , Rr          
+Rr          , Rr          , Ss          , Rr          , Rr          , Ww          , Chw         , Chr         , Kh          , Chr         , Chr         , Rr          , Ss          , Rr          , Rr          , Rr          
+Rr          , Rr          , Ss          , Rr          , Ch          , Rr          , Rr          , Chw         , Rr          , Chr         , Rr          , Ss          , Ch          , Rr          , Rr          , Rr          
+Rr          , Rr          , Rr          , Rr          , Rr          , Ch          , Ch          , Ww          , Rr          , Ss          , Ch          , Ch          , Rr          , Rr          , Rr          , Rr          
+Rr          , Rr          , Ss          , Rr          , Rr          , Rr          , Rr          , Ww          , Ww          , Ss          , Rr          , Rr          , Rr          , Rr          , Rr          , Rr          
+Rr          , Rr          , Ss          , Ss          , Rr          , Rr          , Rr          , Rr          , Ww          , Ss          , Ss          , Rr          , Rr          , Rr          , Rr          , Rr          
+Rr          , 1 Rr        , 2 Rr        , Rr          , Rr          , Rr          , Ss          , Rr          , Rr          , Ww          , Rr          , Rr          , Rr          , Rr          , Rr          , Rr          
+Rr          , Rr          , Rr          , Rr          , Rr          , Ss          , Rr          , Rr          , Rr          , Ww          , Rr          , Rr          , Rr          , Rr          , Rr          , Rr          

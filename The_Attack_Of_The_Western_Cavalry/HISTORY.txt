@@ -2,6 +2,15 @@ History file created on 30.07.2011|
 __________________________________|
 
 
+IMPORTANT!
+Since this is not a battle, but a long campaign, the game will probably be renamed to 'The Invasion of the Western Cavalry".
+Unfortunately there is no way to rename it on the server, and this way the forum will also stay the same, but:
+- In the game it with 1.1.3 it is already 'invasion' everywhere
+- The title description stays with 'invasion'
+- The title still remains, it's not decided yet whether it'll change or not.
+
+_____________________
+
 Returned: 2013.01.01
 Plans are in the Notes
 

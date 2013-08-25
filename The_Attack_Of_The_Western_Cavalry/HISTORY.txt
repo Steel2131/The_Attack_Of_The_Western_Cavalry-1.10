@@ -1,6 +1,13 @@
 History file created on 30.07.2011|
 __________________________________|
 
+Fixed fatal bugs:
+- map4
+- map7,7
+
+For better reference, new maps need to be fitted into the storyline, maps' sequence needed to be rewritten
+
+___________________________________
 
 IMPORTANT!
 Since this is not a battle, but a long campaign, the game will probably be renamed to 'The Invasion of the Western Cavalry".

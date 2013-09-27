@@ -1,6 +1,30 @@
 History file created on 30.07.2011|
 __________________________________|
 
+
+1.1.7beta
+- Corpses and blood do not 'float' on water
+- With new portable items (see list at the intro)
+- Units: Fighter, Commander, Lord, King; compatibility fixed
+- Fixed defeat conditions on map18b
+
+______________________________________
+
+1.1.6beta
+- Fixed a game-crash bug on map8
+- Improved death animation on map3
+- New scenarios' names have been corrected, and maps' sequence has been rewritten, in order to have better reference
+- The new reference will be used everywhere from now on (affects mostly the forums)
+- Epilogues don't count as scenarios anymore
+- Rebalancing in progress
+- Redrawing maps in progress
+- Battlefields become even more blood drenched (progress)
+
+_____________________________________
+
+
+History file continued
+___________________________________
 Fixed fatal bugs:
 - map4
 - map7,7
@@ -67,7 +91,7 @@ Deleted not GPL pictures
 The missing images are listed.
 
 ______________________________________
-First publish: 3.Marsch.2012
+First publish of 0.1.1 for BFW 1.10: 3.March.2012
 
 ______________________________________
 
@@ -106,7 +130,7 @@ Introduced wesnoth version: 1.10.0
 Errors:
 - Macro error: AMLA TOUGH
 - Macro error: LEADING_ANIM expects 3 arguments, but has only 2
-Seems to be global macro error, own unit leading animations HAVE TO BE REWRITTEN AS SOON AS POSSIBLE
+Seems to be global macro error, own unit leading animations HAS TO BE REWRITTEN AS SOON AS POSSIBLE
 - No movement (or even standing!) images at several units, global image errors
 - Wrong [units] toplevel tags (no idea)
 - Empty 'side= ' wml keys, no idea (only one map involved)
@@ -117,5 +141,5 @@ ________________________________________
 
 Artwork needed: Lance of the Devil attack image
 
-The 0.1.1 was published - 14.Sept.2011
+0.1.1 published - 14.Sept.2011
 Written by WhiteWolf

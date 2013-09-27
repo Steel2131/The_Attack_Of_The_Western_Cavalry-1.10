@@ -3,6 +3,7 @@ Borrowed, used, or modified files:
 I've added from where I'd taken them. If the campaign doesn't already exist (some of the ideas were established in BFW 1.2), I put a (?).
 Almost every borrowed file has been modified in some way. This file contains only the ideas that aren't mine!
 
+## If you wish to copy the corpse-images-on-the-ground, you may, but please indicate this campaign, as the source! ##
 
 Music:
   - Lance of Devil, end, intro00:
